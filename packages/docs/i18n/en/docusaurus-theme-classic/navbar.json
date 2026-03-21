@@ -1,0 +1,106 @@
+{
+  "logo.alt": {
+    "message": "Remotion Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Products": {
+    "message": "Products",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.Commercial": {
+    "message": "Commercial",
+    "description": "Navbar item with label Commercial"
+  },
+  "item.label.Player": {
+    "message": "Player",
+    "description": "Navbar item with label Player"
+  },
+  "item.label.Lambda": {
+    "message": "Lambda",
+    "description": "Navbar item with label Lambda"
+  },
+  "item.label.Editor Starter": {
+    "message": "Editor Starter",
+    "description": "Navbar item with label Editor Starter"
+  },
+  "item.label.Timeline": {
+    "message": "Timeline",
+    "description": "Navbar item with label Timeline"
+  },
+  "item.label.Recorder": {
+    "message": "Recorder",
+    "description": "Navbar item with label Recorder"
+  },
+  "item.label.Prompts": {
+    "message": "Prompts",
+    "description": "Navbar item with label Prompts"
+  },
+  "item.label.Learn": {
+    "message": "Learn",
+    "description": "Navbar item with label Learn"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Showcase": {
+    "message": "Showcase",
+    "description": "Navbar item with label Showcase"
+  },
+  "item.label.Convert a video": {
+    "message": "Convert a video",
+    "description": "Navbar item with label Convert a video"
+  },
+  "item.label.Timing Editor": {
+    "message": "Timing Editor",
+    "description": "Navbar item with label Timing Editor"
+  },
+  "item.label.Support": {
+    "message": "Support",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Templates": {
+    "message": "Templates",
+    "description": "Navbar item with label Templates"
+  },
+  "item.label.License + Pricing": {
+    "message": "License + Pricing",
+    "description": "Navbar item with label License + Pricing"
+  },
+  "item.label.Store": {
+    "message": "Store",
+    "description": "Navbar item with label Store"
+  },
+  "item.label.Success Stories": {
+    "message": "Success Stories",
+    "description": "Navbar item with label Success Stories"
+  },
+  "item.label.Experts": {
+    "message": "Experts",
+    "description": "Navbar item with label Experts"
+  },
+  "item.label.About us": {
+    "message": "About us",
+    "description": "Navbar item with label About us"
+  },
+  "item.label.Investors": {
+    "message": "Investors",
+    "description": "Navbar item with label Investors"
+  },
+  "item.label.Contact us": {
+    "message": "Contact us",
+    "description": "Navbar item with label Contact us"
+  }
+}

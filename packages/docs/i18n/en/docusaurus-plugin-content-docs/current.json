@@ -1,0 +1,450 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.apiSidebar.category.Command line": {
+    "message": "Command line",
+    "description": "The label for category 'Command line' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.lambda": {
+    "message": "lambda",
+    "description": "The label for category 'lambda' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.lambda-cli-sites": {
+    "message": "sites",
+    "description": "The label for category 'sites' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.functions": {
+    "message": "functions",
+    "description": "The label for category 'functions' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.cloudrun": {
+    "message": "cloudrun",
+    "description": "The label for category 'cloudrun' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.cloudrun-cli-sites": {
+    "message": "sites",
+    "description": "The label for category 'sites' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.services": {
+    "message": "services",
+    "description": "The label for category 'services' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.browser": {
+    "message": "browser",
+    "description": "The label for category 'browser' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.remotion": {
+    "message": "remotion",
+    "description": "The label for category 'remotion' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/animated-emoji": {
+    "message": "@remotion/animated-emoji",
+    "description": "The label for category '@remotion/animated-emoji' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/animation-utils": {
+    "message": "@remotion/animation-utils",
+    "description": "The label for category '@remotion/animation-utils' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/bundler": {
+    "message": "@remotion/bundler",
+    "description": "The label for category '@remotion/bundler' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/captions": {
+    "message": "@remotion/captions",
+    "description": "The label for category '@remotion/captions' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/cloudrun": {
+    "message": "@remotion/cloudrun",
+    "description": "The label for category '@remotion/cloudrun' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/enable-scss": {
+    "message": "@remotion/enable-scss",
+    "description": "The label for category '@remotion/enable-scss' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/fonts": {
+    "message": "@remotion/fonts",
+    "description": "The label for category '@remotion/fonts' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/gif": {
+    "message": "@remotion/gif",
+    "description": "The label for category '@remotion/gif' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/google-fonts": {
+    "message": "@remotion/google-fonts",
+    "description": "The label for category '@remotion/google-fonts' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/install-whisper-cpp": {
+    "message": "@remotion/install-whisper-cpp",
+    "description": "The label for category '@remotion/install-whisper-cpp' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/layout-utils": {
+    "message": "@remotion/layout-utils",
+    "description": "The label for category '@remotion/layout-utils' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/lambda": {
+    "message": "@remotion/lambda",
+    "description": "The label for category '@remotion/lambda' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/licensing": {
+    "message": "@remotion/licensing",
+    "description": "The label for category '@remotion/licensing' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/lottie": {
+    "message": "@remotion/lottie",
+    "description": "The label for category '@remotion/lottie' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/media": {
+    "message": "@remotion/media",
+    "description": "The label for category '@remotion/media' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/media-utils": {
+    "message": "@remotion/media-utils",
+    "description": "The label for category '@remotion/media-utils' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/motion-blur": {
+    "message": "@remotion/motion-blur",
+    "description": "The label for category '@remotion/motion-blur' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/noise": {
+    "message": "@remotion/noise",
+    "description": "The label for category '@remotion/noise' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/light-leaks": {
+    "message": "@remotion/light-leaks",
+    "description": "The label for category '@remotion/light-leaks' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/starburst": {
+    "message": "@remotion/starburst",
+    "description": "The label for category '@remotion/starburst' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/sfx": {
+    "message": "@remotion/sfx",
+    "description": "The label for category '@remotion/sfx' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/openai-whisper": {
+    "message": "@remotion/openai-whisper",
+    "description": "The label for category '@remotion/openai-whisper' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/paths": {
+    "message": "@remotion/paths",
+    "description": "The label for category '@remotion/paths' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/player": {
+    "message": "@remotion/player",
+    "description": "The label for category '@remotion/player' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/preload": {
+    "message": "@remotion/preload",
+    "description": "The label for category '@remotion/preload' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/renderer": {
+    "message": "@remotion/renderer",
+    "description": "The label for category '@remotion/renderer' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/rive": {
+    "message": "@remotion/rive",
+    "description": "The label for category '@remotion/rive' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/rounded-text-box": {
+    "message": "@remotion/rounded-text-box",
+    "description": "The label for category '@remotion/rounded-text-box' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/shapes": {
+    "message": "@remotion/shapes",
+    "description": "The label for category '@remotion/shapes' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/skia": {
+    "message": "@remotion/skia",
+    "description": "The label for category '@remotion/skia' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/studio": {
+    "message": "@remotion/studio",
+    "description": "The label for category '@remotion/studio' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/tailwind": {
+    "message": "@remotion/tailwind",
+    "description": "The label for category '@remotion/tailwind' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/tailwind-v4": {
+    "message": "@remotion/tailwind-v4",
+    "description": "The label for category '@remotion/tailwind-v4' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/three": {
+    "message": "@remotion/three",
+    "description": "The label for category '@remotion/three' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/transitions": {
+    "message": "@remotion/transitions",
+    "description": "The label for category '@remotion/transitions' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.Timings": {
+    "message": "Timings",
+    "description": "The label for category 'Timings' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.Presentations": {
+    "message": "Presentations",
+    "description": "The label for category 'Presentations' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/vercel": {
+    "message": "@remotion/vercel",
+    "description": "The label for category '@remotion/vercel' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/web-renderer": {
+    "message": "@remotion/web-renderer",
+    "description": "The label for category '@remotion/web-renderer' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/whisper-web": {
+    "message": "@remotion/whisper-web",
+    "description": "The label for category '@remotion/whisper-web' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/zod-types": {
+    "message": "@remotion/zod-types",
+    "description": "The label for category '@remotion/zod-types' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/media-parser (deprecated)": {
+    "message": "@remotion/media-parser (deprecated)",
+    "description": "The label for category '@remotion/media-parser (deprecated)' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.category.@remotion/webcodecs (deprecated)": {
+    "message": "@remotion/webcodecs (deprecated)",
+    "description": "The label for category '@remotion/webcodecs (deprecated)' in sidebar 'apiSidebar'"
+  },
+  "sidebar.apiSidebar.link.cloudrun-cli-reference": {
+    "message": "CLI Reference",
+    "description": "The label for link 'CLI Reference' in sidebar 'apiSidebar', linking to '/docs/cloudrun/cli'"
+  },
+  "sidebar.apiSidebar.link.lambda-cli-reference": {
+    "message": "CLI Reference",
+    "description": "The label for link 'CLI Reference' in sidebar 'apiSidebar', linking to '/docs/lambda/cli'"
+  },
+  "sidebar.apiSidebar.link.Guide + Examples": {
+    "message": "Guide + Examples",
+    "description": "The label for link 'Guide + Examples' in sidebar 'apiSidebar', linking to '/docs/player'"
+  },
+  "sidebar.apiSidebar.link.web-renderer-guide": {
+    "message": "Guide",
+    "description": "The label for link 'Guide' in sidebar 'apiSidebar', linking to '/docs/client-side-rendering'"
+  },
+  "sidebar.apiSidebar.link.media-parser-guide": {
+    "message": "Guide",
+    "description": "The label for link 'Guide' in sidebar 'apiSidebar', linking to '/docs/media-parser'"
+  },
+  "sidebar.apiSidebar.link.webcodecs-guide": {
+    "message": "Guide",
+    "description": "The label for link 'Guide' in sidebar 'apiSidebar', linking to '/docs/webcodecs'"
+  },
+  "sidebar.mainSidebar.category.Getting started": {
+    "message": "Getting started",
+    "description": "The label for category 'Getting started' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Designing visuals": {
+    "message": "Designing visuals",
+    "description": "The label for category 'Designing visuals' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Adding video": {
+    "message": "Adding video",
+    "description": "The label for category 'Adding video' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Adding audio": {
+    "message": "Adding audio",
+    "description": "The label for category 'Adding audio' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Parameterized videos": {
+    "message": "Parameterized videos",
+    "description": "The label for category 'Parameterized videos' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Captions": {
+    "message": "Captions",
+    "description": "The label for category 'Captions' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Rendering": {
+    "message": "Rendering",
+    "description": "The label for category 'Rendering' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Server-side rendering": {
+    "message": "Server-side rendering",
+    "description": "The label for category 'Server-side rendering' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Client-side rendering": {
+    "message": "Client-side rendering",
+    "description": "The label for category 'Client-side rendering' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Lambda": {
+    "message": "Lambda",
+    "description": "The label for category 'Lambda' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.lambda-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Using without IAM users": {
+    "message": "Using without IAM users",
+    "description": "The label for category 'Using without IAM users' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Cloud Run": {
+    "message": "Cloud Run",
+    "description": "The label for category 'Cloud Run' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Studio": {
+    "message": "Studio",
+    "description": "The label for category 'Studio' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Player": {
+    "message": "Player",
+    "description": "The label for category 'Player' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Building apps": {
+    "message": "Building apps",
+    "description": "The label for category 'Building apps' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Mediabunny": {
+    "message": "Mediabunny",
+    "description": "The label for category 'Mediabunny' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.AI": {
+    "message": "AI",
+    "description": "The label for category 'AI' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Tooling": {
+    "message": "Tooling",
+    "description": "The label for category 'Tooling' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Terminology": {
+    "message": "Terminology",
+    "description": "The label for category 'Terminology' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Snippets": {
+    "message": "Snippets",
+    "description": "The label for category 'Snippets' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category 'FAQ' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Miscellaneous": {
+    "message": "Miscellaneous",
+    "description": "The label for category 'Miscellaneous' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.main-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Get help": {
+    "message": "Get help",
+    "description": "The label for category 'Get help' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Migration guides": {
+    "message": "Migration guides",
+    "description": "The label for category 'Migration guides' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Contributing": {
+    "message": "Contributing",
+    "description": "The label for category 'Contributing' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Media Parser": {
+    "message": "Media Parser",
+    "description": "The label for category 'Media Parser' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.WebCodecs": {
+    "message": "WebCodecs",
+    "description": "The label for category 'WebCodecs' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.link.web-renderer-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/web-renderer'"
+  },
+  "sidebar.mainSidebar.link.lambda-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/lambda/api'"
+  },
+  "sidebar.mainSidebar.link.player-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/player/player'"
+  },
+  "sidebar.mainSidebar.link.main-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/api'"
+  },
+  "sidebar.mainSidebar.link.How to get help": {
+    "message": "How to get help",
+    "description": "The label for link 'How to get help' in sidebar 'mainSidebar', linking to '/docs/get-help'"
+  },
+  "sidebar.mainSidebar.link.Discord": {
+    "message": "Discord",
+    "description": "The label for link 'Discord' in sidebar 'mainSidebar', linking to 'https://remotion.dev/discord'"
+  },
+  "sidebar.mainSidebar.link.GitHub Issues": {
+    "message": "GitHub Issues",
+    "description": "The label for link 'GitHub Issues' in sidebar 'mainSidebar', linking to 'https://remotion.dev/discord'"
+  },
+  "sidebar.mainSidebar.link.Editor Starter": {
+    "message": "Editor Starter",
+    "description": "The label for link 'Editor Starter' in sidebar 'mainSidebar', linking to '/docs/editor-starter'"
+  },
+  "sidebar.mainSidebar.link.Timeline": {
+    "message": "Timeline",
+    "description": "The label for link 'Timeline' in sidebar 'mainSidebar', linking to '/docs/timeline'"
+  },
+  "sidebar.mainSidebar.link.Animated Captions": {
+    "message": "Animated Captions",
+    "description": "The label for link 'Animated Captions' in sidebar 'mainSidebar', linking to '/docs/animated-captions'"
+  },
+  "sidebar.mainSidebar.link.Recorder": {
+    "message": "Recorder",
+    "description": "The label for link 'Recorder' in sidebar 'mainSidebar', linking to '/docs/recorder'"
+  },
+  "sidebar.mainSidebar.link.media-parser-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/media-parser/parse-media'"
+  },
+  "sidebar.mainSidebar.link.webcodecs-api-reference": {
+    "message": "API Reference",
+    "description": "The label for link 'API Reference' in sidebar 'mainSidebar', linking to '/docs/webcodecs/convert-media'"
+  },
+  "sidebar.editorStarterSidebar.category.Editor Starter": {
+    "message": "Editor Starter",
+    "description": "The label for category 'Editor Starter' in sidebar 'editorStarterSidebar'"
+  },
+  "sidebar.editorStarterSidebar.link.← Back to the main docs": {
+    "message": "← Back to the main docs",
+    "description": "The label for link '← Back to the main docs' in sidebar 'editorStarterSidebar', linking to '/docs'"
+  },
+  "sidebar.timelineSidebar.category.Timeline": {
+    "message": "Timeline",
+    "description": "The label for category 'Timeline' in sidebar 'timelineSidebar'"
+  },
+  "sidebar.timelineSidebar.link.← Back to the main docs": {
+    "message": "← Back to the main docs",
+    "description": "The label for link '← Back to the main docs' in sidebar 'timelineSidebar', linking to '/docs'"
+  },
+  "sidebar.animatedCaptionsSidebar.category.Animated Captions": {
+    "message": "Animated Captions",
+    "description": "The label for category 'Animated Captions' in sidebar 'animatedCaptionsSidebar'"
+  },
+  "sidebar.animatedCaptionsSidebar.link.← Back to the main docs": {
+    "message": "← Back to the main docs",
+    "description": "The label for link '← Back to the main docs' in sidebar 'animatedCaptionsSidebar', linking to '/docs'"
+  },
+  "sidebar.recorderSidebar.category.Recorder": {
+    "message": "Recorder",
+    "description": "The label for category 'Recorder' in sidebar 'recorderSidebar'"
+  },
+  "sidebar.recorderSidebar.category.Record": {
+    "message": "Record",
+    "description": "The label for category 'Record' in sidebar 'recorderSidebar'"
+  },
+  "sidebar.recorderSidebar.category.Editing": {
+    "message": "Editing",
+    "description": "The label for category 'Editing' in sidebar 'recorderSidebar'"
+  },
+  "sidebar.recorderSidebar.category.Exporting": {
+    "message": "Exporting",
+    "description": "The label for category 'Exporting' in sidebar 'recorderSidebar'"
+  },
+  "sidebar.recorderSidebar.category.recorder-troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category 'Troubleshooting' in sidebar 'recorderSidebar'"
+  }
+}

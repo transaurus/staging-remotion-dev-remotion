@@ -1,0 +1,134 @@
+{
+  "link.title.Remotion": {
+    "message": "Remotion",
+    "description": "The title of the footer links column with title=Remotion in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Getting started": {
+    "message": "Getting started",
+    "description": "The label of footer link with label=Getting started linking to /docs/"
+  },
+  "link.item.label.Templates": {
+    "message": "Templates",
+    "description": "The label of footer link with label=Templates linking to /templates"
+  },
+  "link.item.label.API Reference": {
+    "message": "API Reference",
+    "description": "The label of footer link with label=API Reference linking to /docs/api"
+  },
+  "link.item.label.Player": {
+    "message": "Player",
+    "description": "The label of footer link with label=Player linking to /player"
+  },
+  "link.item.label.Lambda": {
+    "message": "Lambda",
+    "description": "The label of footer link with label=Lambda linking to /lambda"
+  },
+  "link.item.label.Learn": {
+    "message": "Learn",
+    "description": "The label of footer link with label=Learn linking to /learn"
+  },
+  "link.item.label.Convert a video": {
+    "message": "Convert a video",
+    "description": "The label of footer link with label=Convert a video linking to https://convert.remotion.dev"
+  },
+  "link.item.label.Store": {
+    "message": "Store",
+    "description": "The label of footer link with label=Store linking to https://remotion.pro/store"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/remotion-dev/remotion"
+  },
+  "link.item.label.Remotion Pro": {
+    "message": "Remotion Pro",
+    "description": "The label of footer link with label=Remotion Pro linking to https://remotion.pro"
+  },
+  "link.item.label.Prompt Gallery": {
+    "message": "Prompt Gallery",
+    "description": "The label of footer link with label=Prompt Gallery linking to https://remotion.dev/prompts"
+  },
+  "link.item.label.Showcase": {
+    "message": "Showcase",
+    "description": "The label of footer link with label=Showcase linking to showcase"
+  },
+  "link.item.label.Experts": {
+    "message": "Experts",
+    "description": "The label of footer link with label=Experts linking to experts"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://remotion.dev/discord"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/remotion"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://youtube.com/@remotion_dev"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/company/remotion-dev/"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram linking to https://instagram.com/remotion"
+  },
+  "link.item.label.TikTok": {
+    "message": "TikTok",
+    "description": "The label of footer link with label=TikTok linking to https://www.tiktok.com/@remotion"
+  },
+  "link.item.label.About us": {
+    "message": "About us",
+    "description": "The label of footer link with label=About us linking to about"
+  },
+  "link.item.label.Contact us": {
+    "message": "Contact us",
+    "description": "The label of footer link with label=Contact us linking to contact"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog"
+  },
+  "link.item.label.Success Stories": {
+    "message": "Success Stories",
+    "description": "The label of footer link with label=Success Stories linking to success-stories"
+  },
+  "link.item.label.Support": {
+    "message": "Support",
+    "description": "The label of footer link with label=Support linking to /docs/support"
+  },
+  "link.item.label.Changelog": {
+    "message": "Changelog",
+    "description": "The label of footer link with label=Changelog linking to https://remotion.dev/changelog"
+  },
+  "link.item.label.Acknowledgements": {
+    "message": "Acknowledgements",
+    "description": "The label of footer link with label=Acknowledgements linking to https://remotion.dev/acknowledgements"
+  },
+  "link.item.label.License": {
+    "message": "License",
+    "description": "The label of footer link with label=License linking to https://remotion.dev/license"
+  },
+  "link.item.label.Terms and Conditions": {
+    "message": "Terms and Conditions",
+    "description": "The label of footer link with label=Terms and Conditions linking to https://remotion.pro/terms"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to https://remotion.pro/privacy"
+  },
+  "link.item.label.Brand": {
+    "message": "Brand",
+    "description": "The label of footer link with label=Brand linking to https://remotion.dev/brand"
+  }
+}
