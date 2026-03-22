@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["31833"],{36153(e){e.exports=JSON.parse('{"title":"Learn","items":[{"title":"Recreating the Apple fireworks animation","permalink":"/learn/apple-wow","unlisted":false,"date":"2022-12-22T00:00:00.000Z"}]}')}}]);

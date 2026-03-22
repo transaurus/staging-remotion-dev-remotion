@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["65945"],{67890(s){s.exports=JSON.parse('{"name":"slug-plugin","id":"default"}')}}]);

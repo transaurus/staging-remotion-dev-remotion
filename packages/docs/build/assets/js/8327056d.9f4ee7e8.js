@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["78731"],{75126(e,a,c){c.r(a),c.d(a,{default:()=>h});var s=c(57825),t=c(88921);c(67781);let h=()=>(0,s.jsx)(t.A,{children:(0,s.jsx)("iframe",{src:"https://crawlchat.app/w/67c0a28c5b075f0bb35e5366",style:{width:"100%",height:800,maxHeight:"80vh"},allow:"clipboard-read; clipboard-write"})})}}]);
