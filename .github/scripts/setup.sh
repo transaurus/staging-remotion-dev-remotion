@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Setup script for remotion-dev/remotion
 # Docusaurus 3.9.2 at packages/docs
-# Package manager: bun@1.3.3
+# Package manager: bun@1.3.3 (MUST be 1.3.3 — 1.3.11+ produces incomplete bundle stubs)
 
 REPO_URL="https://github.com/remotion-dev/remotion"
 REPO_DIR="source-repo"
@@ -21,10 +21,10 @@ nvm use 20
 NODE_VERSION=$(node --version)
 echo "Node version: $NODE_VERSION"
 
-# Install bun
-if ! command -v bun &>/dev/null; then
-  curl -fsSL https://bun.sh/install | bash
-fi
+# Install bun 1.3.3 specifically
+# bun 1.3.11+ has a bundler regression that produces stub ESM files (only re-export headers)
+# instead of full bundles. This breaks downstream packages like @remotion/serverless-client.
+curl -fsSL https://bun.sh/install | bash -s "bun-v1.3.3"
 export PATH="$HOME/.bun/bin:$PATH"
 
 BUN_VERSION=$(bun --version)
@@ -42,11 +42,42 @@ cd "$REPO_DIR"
 echo "Installing dependencies at monorepo root..."
 bun install --frozen-lockfile || bun install
 
-# Build @remotion/docusaurus-plugin (needed by shiki.js preset)
-echo "Building @remotion/docusaurus-plugin..."
-cd packages/docusaurus-plugin
-../../node_modules/.bin/tsgo -d
-cd ../..
+# Build all workspace packages that docs depends on.
+# This includes: remotion core, @remotion/player, @remotion/transitions, @remotion/shapes,
+# @remotion/renderer, @remotion/bundler, @remotion/docusaurus-plugin, etc.
+# turbo respects ^make dependencies (builds in correct order).
+# NODE_ENV=production is required by bundle.ts scripts in each package.
+echo "Building workspace packages (turbo make)..."
+TURBO_TELEMETRY_DISABLED=1 NODE_ENV=production \
+  ./node_modules/.bin/turbo run make \
+  --filter='docs^...' \
+  --no-update-notifier \
+  --continue
+
+# Patch @remotion/docusaurus-plugin to degrade twoslash errors gracefully.
+# When TypeScript types can't be resolved, twoslash sets node.type='html' in MDAST.
+# This creates 'raw' HAST nodes which hast-util-to-estree@3.1.0 cannot handle.
+# Fix: when twoslash fails, keep the node as a plain code block instead.
+echo "Patching @remotion/docusaurus-plugin for graceful twoslash error handling..."
+python3 - <<'PYEOF'
+import sys
+
+path = 'packages/docusaurus-plugin/dist/exceptionMessageDOM.js'
+with open(path, 'r') as f:
+    content = f.read()
+
+old = "    node.type = 'html';\n    node.value = \"<div id='twoslash-error'>\" + css + html + '</div>';\n    node.children = [];"
+new = "    // Degrade gracefully: keep node as a regular code block\n    // (avoids 'Cannot handle unknown node raw' in hast-util-to-estree@3.1.0)\n    // node.type stays 'code', node.value stays as the code"
+
+if old not in content:
+    print(f"WARNING: Could not find patch target in {path} — continuing anyway")
+    sys.exit(0)
+
+content = content.replace(old, new, 1)
+with open(path, 'w') as f:
+    f.write(content)
+print("Patch applied successfully")
+PYEOF
 
 # Fix duplicate sidebar translation keys in sidebars.ts
 # Docusaurus 3.9.2 requires unique 'key' attributes for identical labels in the same sidebar.
@@ -148,3 +179,19 @@ bun run docusaurus write-translations
 
 echo "SUCCESS: write-translations completed"
 ls -la i18n/ 2>/dev/null || echo "No i18n directory found"
+
+echo "Running pre-build steps..."
+# copy-raw-docs.ts copies docs to static/_raw/docs (needed for build)
+bun copy-raw-docs.ts
+
+# fetch-prompt-submissions.ts fetches external data — stub it to avoid network dependency
+mkdir -p static/_raw
+echo "[]" > static/_raw/prompt-submissions.json
+
+# prewarm-twoslash.ts is a cache pre-warmer, not required for build output
+
+echo "Running docusaurus build..."
+DOCUSAURUS_IGNORE_SSG_WARNINGS=true ./node_modules/.bin/docusaurus build
+
+echo "SUCCESS: build completed"
+ls -la build/ 2>/dev/null || echo "No build directory found"
