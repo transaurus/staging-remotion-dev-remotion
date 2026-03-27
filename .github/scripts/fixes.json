@@ -1,0 +1,37 @@
+{
+    "description": "Repository-specific fixes for remotion-dev/remotion - sidebar duplicate translation keys",
+    "fixes": {
+        "packages/docs/sidebars.ts": [
+            {
+                "type": "replace",
+                "find": "\t\t\t\t\t\t\ttype: 'category',\n\t\t\t\t\t\t\tlabel: 'sites',\n\t\t\t\t\t\t\tlink: {\n\t\t\t\t\t\t\t\ttype: 'doc',\n\t\t\t\t\t\t\t\tid: 'lambda/cli/sites',",
+                "replace": "\t\t\t\t\t\t\ttype: 'category',\n\t\t\t\t\t\t\tkey: 'lambda-cli-sites',\n\t\t\t\t\t\t\tlabel: 'sites',\n\t\t\t\t\t\t\tlink: {\n\t\t\t\t\t\t\t\ttype: 'doc',\n\t\t\t\t\t\t\t\tid: 'lambda/cli/sites',",
+                "comment": "Add key to lambda sites category to disambiguate from cloudrun sites (duplicate label in apiSidebar)"
+            },
+            {
+                "type": "replace",
+                "find": "\t\t\t\t\t\t\ttype: 'category',\n\t\t\t\t\t\t\tlabel: 'sites',\n\t\t\t\t\t\t\tlink: {\n\t\t\t\t\t\t\t\ttype: 'doc',\n\t\t\t\t\t\t\t\tid: 'cloudrun/cli/sites',",
+                "replace": "\t\t\t\t\t\t\ttype: 'category',\n\t\t\t\t\t\t\tkey: 'cloudrun-cli-sites',\n\t\t\t\t\t\t\tlabel: 'sites',\n\t\t\t\t\t\t\tlink: {\n\t\t\t\t\t\t\t\ttype: 'doc',\n\t\t\t\t\t\t\t\tid: 'cloudrun/cli/sites',",
+                "comment": "Add key to cloudrun sites category to disambiguate from lambda sites (duplicate label in apiSidebar)"
+            },
+            {
+                "type": "replace",
+                "find": "\t\t\t\t\ttype: 'category',\n\t\t\t\t\tlabel: 'Troubleshooting',\n\t\t\t\t\titems: [\n\t\t\t\t\t\t'lambda/troubleshooting/debug',",
+                "replace": "\t\t\t\t\ttype: 'category',\n\t\t\t\t\tkey: 'lambda-troubleshooting',\n\t\t\t\t\tlabel: 'Troubleshooting',\n\t\t\t\t\titems: [\n\t\t\t\t\t\t'lambda/troubleshooting/debug',",
+                "comment": "Add key to lambda Troubleshooting category (3 Troubleshooting categories in mainSidebar)"
+            },
+            {
+                "type": "replace",
+                "find": "\t\t\ttype: 'category',\n\t\t\tlabel: 'Troubleshooting',\n\t\t\titems: [\n\t\t\t\t'troubleshooting/debug-failed-render',",
+                "replace": "\t\t\ttype: 'category',\n\t\t\tkey: 'main-troubleshooting',\n\t\t\tlabel: 'Troubleshooting',\n\t\t\titems: [\n\t\t\t\t'troubleshooting/debug-failed-render',",
+                "comment": "Add key to main Troubleshooting category (3 Troubleshooting categories in mainSidebar)"
+            },
+            {
+                "type": "replace",
+                "find": "\t\t\t\t\ttype: 'category',\n\t\t\t\t\tlabel: 'Troubleshooting',\n\t\t\t\t\titems: [\n\t\t\t\t\t\t'recorder/troubleshooting/cannot-read-properties-of-undefined',",
+                "replace": "\t\t\t\t\ttype: 'category',\n\t\t\t\t\tkey: 'recorder-troubleshooting',\n\t\t\t\t\tlabel: 'Troubleshooting',\n\t\t\t\t\titems: [\n\t\t\t\t\t\t'recorder/troubleshooting/cannot-read-properties-of-undefined',",
+                "comment": "Add key to recorder Troubleshooting category (3 Troubleshooting categories in mainSidebar)"
+            }
+        ]
+    }
+}
