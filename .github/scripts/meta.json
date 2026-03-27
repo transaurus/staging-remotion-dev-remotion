@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/remotion-dev/remotion",
+  "branch": "main",
+  "docusaurusRoot": "packages/docs",
+  "configFile": "packages/docs/docusaurus.config.ts",
+  "translateCommand": "bun run docusaurus write-translations",
+  "buildCommand": "DOCUSAURUS_IGNORE_SSG_WARNINGS=true ./node_modules/.bin/docusaurus build",
+  "buildOutput": "build",
+  "packageManager": "bun"
+}
